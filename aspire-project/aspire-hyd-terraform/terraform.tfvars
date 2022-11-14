@@ -1,0 +1,9 @@
+region = "us-east-1"
+cidr            = ["10.0.0.0/16", "10.0.0.0/24", "10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24", "10.0.4.0/24", "10.0.5.0/24"]
+project_name    = "aspire-hyd"
+team            = "aspire-hyd-team"
+routetable_cidr = "0.0.0.0/0"
+sg_ports_alb_ingress = ["80", "443"]
+sg_ports_alb_egress = ["0"]
+sg_ports_ecs_ingress = ["80", "443"]
+sg_ports_ecs_egress = ["0"]

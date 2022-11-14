@@ -1,0 +1,10 @@
+variable "project_name" {}
+variable "public_subnet_az1_id" {}
+variable "public_subnet_az2_id" {}
+variable "internet_gateway" {}
+variable "vpc_id" {}
+variable "routetable_cidr" {}
+variable "private_subnet_app_az1_id" {}
+variable "private_subnet_app_az2_id" {}
+variable "private_subnet_data_az1_id" {}
+variable "private_subnet_data_az2_id" {}
